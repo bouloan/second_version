@@ -1,0 +1,56 @@
+<nav>
+  <ul class="menu">
+    <li class="logo">
+      <a href="#home"><img src="../../../assets/images/mcna-logo.svg" alt="logo_mcna" />
+      </a>
+    </li>
+    <ng-container *ngIf="page === '/mentions-legales'; then legalNotice; else homePage">
+    </ng-container>
+    <ng-container *ngIf="language === 'zh-CN'; then frenchButton; else chineseButton">
+    </ng-container>
+
+    <li class="hamburgerIcon" (click)="showMenu = !showMenu">
+      <span class="bars"> </span>
+    </li>
+  </ul>
+</nav>
+
+<!-- menu for legal notice page -->
+<ng-template #legalNotice>
+  <li class="item" [ngClass]="{ active: showMenu }">
+    <a (click)="onCloseMobileMenu()" routerLink="/">{{
+      "menu.home" | translate
+    }}</a>
+  </li>
+</ng-template>
+
+<!-- menu for home page -->
+<ng-template #homePage>
+  <li class="item" (click)="onCloseMobileMenu()" [ngClass]="{ active: showMenu }">
+    <a href="#presentation">{{ "menu.presentation" | translate }}</a>
+  </li>
+  <li class="item" (click)="onCloseMobileMenu()" [ngClass]="{ active: showMenu }">
+    <a href="#services">{{ "menu.services" | translate }}</a>
+  </li>
+  <li class="item" (click)="onCloseMobileMenu()" [ngClass]="{ active: showMenu }">
+    <a href="#video">{{ "menu.videos" | translate }}</a>
+  </li>
+  <li class="item" (click)="onCloseMobileMenu()" [ngClass]="{ active: showMenu }">
+    <a href="#activities">{{ "menu.activities" | translate }}</a>
+  </li>
+  <li class="item" (click)="onCloseMobileMenu()" [ngClass]="{ active: showMenu }">
+    <a href="#news">{{ "menu.news" | translate }}</a>
+  </li>
+</ng-template>
+
+<ng-template #frenchButton>
+  <li (click)="onSelectLanguage('fr')" class="item language" [ngClass]="{ active: showMenu }">
+    Français
+  </li>
+</ng-template>
+
+<ng-template #chineseButton>
+  <li (click)="onSelectLanguage('zh-CN')" class="item language" [ngClass]="{ active: showMenu }">
+    中文
+  </li>
+</ng-template>

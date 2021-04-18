@@ -1,0 +1,25 @@
+<div id="video" class="paddingAnchor">
+  <h2>{{'videos.title' | translate}}</h2>
+  <div class="slider">
+    <ng-container *ngFor="let slide of slides; index as i;">
+
+      <div class="slide " [ngClass]="selectedSlide === slide.id? 'current': ''">
+
+        <mcna-video [videoId]="slide.video"></mcna-video>
+
+        <div class="content">
+          <h3>{{slide.title}}</h3>
+          <p>{{slide.content}}</p>
+        </div>
+      </div>
+    </ng-container>
+
+    <div id="prev" (click)="onPrev()">
+      <fa-icon [icon]="faAngleLeft" size="lg"></fa-icon>
+    </div>
+    <div id="next" (click)="onNext()">
+      <fa-icon [icon]="faAngleRight" size="lg"></fa-icon>
+    </div>
+  </div>
+
+</div>

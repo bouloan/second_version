@@ -1,0 +1,10 @@
+<div class="newsBackground" (click)="deviceFormat !== 'sm' && deviceFormat !== 'md' ? onOpenModal(): ''"
+  style="background-image: url({{news.images[0].url}});"></div>
+<div class="newsTitle" (click)="deviceFormat !== 'sm' && deviceFormat !== 'md' ? onOpenModal(): ''">
+  <h3>{{ news.title }}</h3>
+  <button *ngIf="deviceFormat === 'sm' || deviceFormat === 'md'" class="sharpButton" (click)="onOpenModal()">
+    {{
+      "more" | translate
+    }}
+  </button>
+</div>

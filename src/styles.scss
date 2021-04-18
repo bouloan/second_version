@@ -1,0 +1,107 @@
+@import "base.scss";
+@import "responsive.scss";
+@import "color.scss";
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: $font-color;
+}
+
+.roundedButton {
+  padding: 0.8rem 1.5rem;
+  border-radius: 40px;
+  border: 1px solid;
+  transition: 0.3s;
+  text-decoration: none;
+
+  &:hover {
+    transition: 0.3s;
+  }
+}
+
+.sharpButton {
+  border: 1px solid;
+  transition: 0.3s;
+  min-width: 10rem;
+
+  &:hover {
+    transition: 0.3s;
+  }
+}
+
+/*mobile*/
+
+h1 {
+  font-size: calc(1rem + 3vw);
+  font-weight: normal;
+}
+
+h2 {
+  font-size: calc(1rem + 2vw);
+  font-weight: normal;
+
+  text-align: center;
+}
+
+h3 {
+  font-size: calc(1rem + 0.9vw);
+  font-weight: normal;
+}
+
+.paddingAnchor:before {
+  content: "";
+  display: block;
+  padding-top: 1rem;
+}
+
+.marginAnchor,
+.paddingAnchor {
+  margin-top: 1rem;
+}
+
+.marginAnchor:before {
+  content: "";
+  display: block;
+  margin-top: 1rem;
+}
+
+@include md {
+  h3 {
+    font-size: calc(1rem + 1.3vw);
+  }
+}
+
+/*desktop*/
+@include lg {
+  h1 {
+    font-size: calc(1rem + 3vw);
+  }
+
+  h2 {
+    font-size: 2vw;
+  }
+
+  h3 {
+    font-size: 1.3vw;
+  }
+
+  .marginAnchor,
+  .paddingAnchor {
+    margin-top: -6rem;
+  }
+
+  .marginAnchor:before {
+    content: "";
+    display: block;
+    margin-top: 6rem;
+  }
+
+  .paddingAnchor:before {
+    content: "";
+    display: block;
+    padding-top: 2rem;
+  }
+}

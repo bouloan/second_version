@@ -1,0 +1,50 @@
+@import '../../../../styles.scss';
+@import 'responsive.scss';
+
+div {
+  background-color: rgba($color: white, $alpha: 0.6);
+  margin-top: 0vh;
+  height: 46vh;
+  width: 92vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+    width: 70%;
+    line-height: 2.5rem;
+  }
+
+
+}
+
+/*Tablet */
+@include md {
+
+
+  div {
+
+    p {
+      font-size: 1.5rem;
+      width: 60%;
+    }
+
+  }
+
+}
+
+/*Desktop */
+@include lg {
+
+
+  div {
+
+    p {
+      font-size: 2rem;
+    }
+
+  }
+
+}

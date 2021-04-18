@@ -1,0 +1,21 @@
+<div class="activity">
+  <div class="activityPresentation">
+    <div class="backgroundImage" [ngStyle]="{'background-image': 'url('+activity.image+')'}">
+    </div>
+    <div class="activityText" (click)="showActivityDescription = !showActivityDescription">
+      <h3>{{activity.title}}<fa-icon [icon]="showActivityDescription ? faAngleDown : faAngleUp" size="lg"></fa-icon>
+      </h3>
+      <div [ngClass]="showActivityDescription ? 'active': '' ">
+        <p>{{activity.subtitle}}</p>
+        <p>{{activity.content}}</p>
+        <p *ngIf="activity.content2 !== ''">{{activity.content2}}</p>
+        <p *ngIf="activity.content3 !== ''">{{activity.content3}}</p>
+        <p *ngIf="activity.content4 !== ''">{{activity.content4}}</p>
+        <p *ngIf="activity.content5 !== ''">{{activity.content5}}</p>
+        <p>{{activity.address}}</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>

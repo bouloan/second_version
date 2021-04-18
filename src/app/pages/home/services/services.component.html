@@ -1,0 +1,8 @@
+<div id="services" class="paddingAnchor">
+  <h2>{{'services.title' | translate}}</h2>
+  <div class="servicesList">
+    <ng-container *ngFor="let service of services">
+      <mcna-service [service]="service"></mcna-service>
+    </ng-container>
+  </div>
+</div>

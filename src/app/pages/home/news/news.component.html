@@ -1,0 +1,9 @@
+<div id="news" class="paddingAnchor">
+  <h2>{{'news.title' | translate}}</h2>
+  <div class="container">
+    <ng-container *ngFor="let n of news; index as i;">
+      <mcna-news-thumbnails [news]='n'></mcna-news-thumbnails>
+    </ng-container>
+  </div>
+
+</div>

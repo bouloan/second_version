@@ -1,0 +1,30 @@
+@import 'responsive.scss';
+@import 'color.scss';
+
+.container {
+  display: grid;
+  margin: auto;
+  grid-auto-rows: 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+
+  &::before {
+    content: '';
+    padding-bottom: 100%;
+    grid-row: 1;
+    grid-column: 1;
+  }
+}
+
+@include lg {
+
+  #news {
+
+
+    .container {
+      grid-template-columns: repeat(auto-fill, minmax(30%, 30%));
+      column-gap: 5%;
+      row-gap: 5%;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<div class="contentCard">
+
+  <h3>{{content.title}}</h3>
+  <div class="slider">
+
+    <ng-container *ngFor="let picture of content.images; index as i;">
+
+      <div class="slide" [ngClass]="selectedSlide === picture.id ? 'current' : ''"
+        style="background-image: url({{picture.url}});">
+      </div>
+    </ng-container>
+
+    <div class="faIcon prev" (click)="onPrev()">
+      <fa-icon [icon]="faAngleLeft" size="2x"></fa-icon>
+    </div>
+    <div class="faIcon next" (click)="onNext()">
+      <fa-icon [icon]="faAngleRight" size="2x"></fa-icon>
+    </div>
+
+  </div>
+  <div class="content">
+    <div class="date" [innerHTML]="content.date"></div>
+    <div [innerHTML]="content.content"></div>
+
+  </div>
+
+</div>

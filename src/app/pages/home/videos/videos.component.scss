@@ -1,0 +1,221 @@
+@import '../../../../styles.scss';
+@import 'responsive.scss';
+@import 'color.scss';
+
+.slider {
+  position: relative;
+  overflow: hidden;
+
+  width: 100%;
+  text-align: center;
+  margin: auto;
+
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+
+    &.current {
+      opacity: 1;
+
+      .content {
+        opacity: 1;
+        transform: translateX(100%);
+        transition: all 0.7s ease-in-out 0.3s;
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+      }
+
+    }
+
+    mcna-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+    }
+
+    .content {
+      position: absolute;
+      background-color: rgba($color:white, $alpha: 0.8);
+      opacity: 0;
+
+      h3 {
+        margin-bottom: 0.1rem;
+      }
+    }
+  }
+
+  #prev,
+  #next {
+    position: absolute;
+    transform: translateY(-50%);
+    width: 25px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  #prev {
+    left: 0px;
+  }
+
+  #next {
+    right: 0px;
+  }
+}
+
+
+
+
+/*mobile*/
+
+.slider {
+  height: 508px;
+
+  .slide {
+    mcna-video {}
+
+    .content {
+      position: absolute;
+      bottom: 0px;
+      left: -100%;
+      width: 100%;
+      background-color: rgba($color:white, $alpha: 0.8);
+      padding: 0.5rem;
+      opacity: 0;
+
+    }
+  }
+
+  #prev,
+  #next {
+    color: white;
+    top: 125px;
+
+  }
+
+  #prev {
+    left: 0px;
+  }
+
+  #next {
+    right: 0px;
+  }
+
+}
+
+/*tablet*/
+@include md {
+  .slider {
+    height: 480px;
+
+    #prev,
+    #next {
+      color: $font-color;
+      top: 150px;
+
+    }
+
+    #prev {
+      left: 20px;
+    }
+
+    #next {
+      right: 20px;
+    }
+  }
+}
+
+
+
+
+/*desktop */
+@include lg {
+
+  .slider {
+    height: 450px;
+
+    .slide {
+      &.current {
+        opacity: 1;
+
+
+        mcna-video {
+          transform: translateX(200%);
+          transition: all 0.7s ease-in-out 0.3s;
+        }
+      }
+
+      mcna-video {
+        position: absolute;
+        top: 0;
+        left: -55%;
+        width: 50%;
+      }
+
+      .content {
+        top: 20px;
+        left: -15%;
+        width: 30%;
+      }
+    }
+
+    #prev,
+    #next {
+      color: $font-color;
+      top: 215px;
+    }
+
+    #prev {
+      left: 30px;
+    }
+
+    #next {
+      right: 30px;
+    }
+  }
+
+
+}
+
+
+@include xl {
+
+
+  .slider {
+    .slide {
+      &.current {
+        opacity: 1;
+
+
+        mcna-video {
+          transform: translateX(200%);
+          transition: all 0.7s ease-in-out 0.3s;
+        }
+      }
+
+      mcna-video {}
+
+    }
+
+    #prev,
+    #next {}
+
+    #prev {
+      left: 30px;
+    }
+
+    #next {
+      right: 30px;
+    }
+  }
+
+}

@@ -1,0 +1,16 @@
+@import '../../../../styles.scss';
+
+.activitiesList {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-row-gap: 1rem;
+}
+
+/*desktop*/
+@include lg {
+  .activitiesList {
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 5%;
+    grid-row-gap: unset;
+  }
+}

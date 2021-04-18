@@ -1,0 +1,182 @@
+@import '../../../styles.scss';
+
+nav {
+  height: 100%;
+  padding: 1rem;
+
+  .menu {
+    height: 100%;
+    padding: unset;
+    margin: unset;
+
+    li {
+
+      :not(.hamburgerIcon) {
+        padding: 1rem 2rem;
+      }
+
+      &.logo {
+        a {
+          font-size: 2.5rem;
+          padding: 0;
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 4rem;
+            padding: 0;
+          }
+
+          >span {
+            padding: 0 0 0 2rem;
+            display: inline-block;
+            height: 2rem;
+          }
+        }
+      }
+
+      &.hamburgerIcon {
+        position: relative;
+
+        .bars {
+          padding: unset;
+          background: #999;
+          display: block;
+          height: 2px;
+          position: relative;
+          width: 1.5rem;
+        }
+
+        .bars::before,
+        .bars::after {
+          background: #999;
+          content: "";
+          display: inline-block;
+          height: 2px;
+          position: absolute;
+          width: 1.5rem;
+        }
+
+        .bars::before {
+          top: 8px;
+        }
+
+        .bars::after {
+          bottom: 8px;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        display: block;
+      }
+
+    }
+  }
+
+}
+
+/*Mobile menu*/
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  li {
+    &logo {
+      a {
+        >span {
+          padding: 0 0 0 1rem;
+        }
+      }
+
+
+    }
+
+    &.hamburgerIcon {
+      order: 1;
+      padding: 0 1rem 0 0;
+    }
+  }
+
+  .item {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+
+    &.active {
+      display: block;
+    }
+
+    &.language {
+      order: 2;
+      padding: 1rem 2rem;
+    }
+  }
+}
+
+/*Tablet menu*/
+@include md {
+  nav {
+    .menu {
+      justify-content: center;
+
+      li {
+
+        &.logo {
+          flex: 1;
+
+          a {
+            img {
+              height: 5.5rem;
+            }
+          }
+
+        }
+
+        &.item {
+
+          &.hamburgerIcon {
+            order: 2
+          }
+        }
+      }
+
+    }
+  }
+
+}
+
+/*Desktop menu*/
+@include lg {
+  nav {
+    padding: 0;
+
+    .menu {
+      .item {
+        display: block;
+        width: auto;
+        order: 1;
+
+        &.active {
+          right: 0;
+          background-color: 0;
+          padding: 1rem;
+        }
+
+      }
+
+      .logo {
+        order: 0;
+        padding-left: 2rem;
+      }
+
+      .hamburgerIcon {
+        display: none;
+      }
+    }
+  }
+}

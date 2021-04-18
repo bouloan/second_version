@@ -1,0 +1,24 @@
+div {
+  position: relative;
+  text-align: center;
+
+  >button {
+    display: inline-block;
+    // background-color: #E3D0A8;
+    // color: white;
+    padding: 0.1rem 1.5rem;
+    border: 1px solid;
+    transition: 0.3s;
+    min-width: 10rem;
+
+    &:hover {
+      color: #E3D0A8;
+      border-color: #E3D0A8;
+      // background-color: white;
+
+      &:hover {
+        transition: 0.3s;
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+@import '../../../styles.scss';
+@import 'responsive.scss';
+
+:host {
+  display: grid;
+  grid-row-gap: 1rem;
+
+}
+
+mcna-catchphrase {
+  position: relative;
+  height: 82vh;
+  margin-top: -2.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  &::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -4px;
+    transform: translateZ(-1px) scale(1.5);
+    background-size: 100%;
+    z-index: -1;
+    background-image: url('../../../assets/images/home/catchphrase.png');
+    background-repeat: unset;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+}
+
+mcna-presentation {
+  background-color: white;
+}
+
+mcna-videos {
+  text-align: center;
+}
+
+@include md {
+
+  mcna-catchphrase {
+
+    &::after {
+      background-position: left;
+      top: 27px;
+      right: -45px;
+      bottom: -115px;
+      left: -4px;
+    }
+
+  }
+
+
+}
+
+
+@include lg {
+
+  mcna-catchphrase {
+
+    &::after {
+      background-position: 0% 20%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: -4px;
+
+    }
+
+  }
+
+  mcna-presentation,
+  mcna-services,
+  mcna-activities,
+  mcna-news,
+  mcna-videos {
+    padding: 6rem 6rem 0rem 6rem;
+  }
+
+  mcna-videos {
+    width: 100%;
+    margin: auto;
+  }
+
+}
+
+@include xl {
+  mcna-videos {
+    width: 90%;
+    margin: auto;
+  }
+}

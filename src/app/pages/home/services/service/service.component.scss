@@ -1,0 +1,100 @@
+@import '../../../../../styles.scss';
+@import 'responsive.scss';
+
+.serviceDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  >div {
+    margin-top: -7px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+
+    span {
+      margin: 1rem 0;
+    }
+  }
+}
+
+
+/*mobile */
+
+.serviceDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .image {
+    height: 19rem;
+  }
+
+
+  img {
+    width: 100%;
+
+  }
+
+  >div {
+    margin-top: -7px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+
+    span {
+      margin: 1rem 0;
+    }
+  }
+}
+
+@include md {
+  .serviceDetail {
+    .image {
+      height: 34rem;
+    }
+  }
+}
+
+/*desktop*/
+@include lg {
+  .serviceDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .image {
+      height: 30rem;
+    }
+
+    >div {
+      margin-top: -7px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem 0;
+
+      span {
+        margin: 1rem 0;
+      }
+    }
+  }
+}

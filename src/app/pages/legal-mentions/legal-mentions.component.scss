@@ -1,0 +1,64 @@
+@import '../../../styles.scss';
+@import 'responsive.scss';
+
+#legalNotice {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 1rem;
+  margin-top: 2rem;
+
+  article {
+    background-color: rgba(white, 0.6);
+
+    padding: 1rem;
+
+    h1 {
+      text-align: center;
+    }
+  }
+
+  &::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -4px;
+    transform: translateZ(-1px) scale(1.5);
+    background-size: 100%;
+    z-index: -1;
+    background-image: url('../../../assets/images/home/catchphrase.png');
+    background-repeat: unset;
+    background-size: cover;
+    background-position: 0% 20%;
+
+  }
+
+
+}
+
+@include md {
+  #legalNotice {
+
+
+    article {
+
+      width: 80%;
+    }
+  }
+}
+
+@include lg {
+  #legalNotice {
+    margin-top: 0;
+    padding: 2rem;
+
+    article {
+      padding: 1rem;
+
+    }
+  }
+}

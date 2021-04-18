@@ -1,0 +1,94 @@
+@import 'color.scss';
+@import "responsive.scss";
+
+h3 {
+  text-align: center;
+  line-height: 2rem;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 50vw;
+  width: 75vw;
+  text-align: center;
+  margin: auto;
+
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    &.current {
+      opacity: 1;
+    }
+  }
+
+  .faIcon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 60px;
+    color: $golden-color;
+
+    &.prev {
+      left: 0;
+    }
+
+    &.next {
+      right: 0;
+    }
+  }
+
+
+}
+
+.date {
+  text-align: right;
+  font-size: 0.7rem;
+}
+
+/*tablet*/
+@include md {
+  .slider {
+    max-width: 600px;
+    max-height: 300px;
+  }
+
+  .content {
+
+    max-width: 600px;
+    margin: auto;
+  }
+}
+
+
+/*desktop*/
+@include lg {
+  .slider {
+    width: 50vw;
+    height: 33vw;
+    max-width: 1000px;
+    max-height: 667px;
+
+
+  }
+
+  .content {
+    width: 50vw;
+    max-width: 1000px;
+
+  }
+}

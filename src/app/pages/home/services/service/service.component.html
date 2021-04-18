@@ -1,0 +1,7 @@
+<div class="serviceDetail">
+  <div class="image" [ngStyle]="{'background-image': 'url('+service.image+')'}"></div>
+  <div [ngStyle]="{'background-color': service.backgroundColor, 'color': service.color}">
+    <h3>{{service.subtitle}}</h3>
+    <span>{{service.description}}</span>
+  </div>
+</div>

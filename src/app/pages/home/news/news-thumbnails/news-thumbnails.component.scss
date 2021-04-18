@@ -1,0 +1,95 @@
+@import 'responsive.scss';
+@import 'color.scss';
+
+
+:host {
+  cursor: pointer;
+
+  &:first-child {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .newsBackground {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+    &::after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+  }
+
+
+
+  .newsTitle {
+    width: 100%;
+    background-color: $champagne-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+
+    h3 {
+      width: 90%;
+      line-height: 1.2rem;
+      text-align: center;
+    }
+
+    h3:hover {
+      color: $golden-color;
+    }
+
+    button {
+      padding: 0.3rem 1.5rem;
+      display: inline-block;
+      background-color: $champagne-color;
+
+      &:hover,
+      &:focus {
+        color: #E3D0A8;
+        border-color: #E3D0A8;
+        background-color: $font-color;
+      }
+
+      &:focus {
+        outline-color: $font-color;
+        border-radius: unset;
+      }
+
+    }
+  }
+
+  .newsThumbnail:first-child {
+    grid-row: 1;
+    grid-column: 1;
+  }
+}
+
+
+
+
+@include lg {
+
+  .newsBackground {
+    height: 80%;
+    bottom: 20%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+  }
+
+  .newsTitle {
+    height: 20%;
+  }
+
+}

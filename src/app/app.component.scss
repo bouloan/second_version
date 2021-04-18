@@ -1,0 +1,39 @@
+@import '../styles.scss';
+
+mcna-header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+
+  background-color: white;
+}
+
+main {
+  height: 90vh;
+  overflow-x: hidden;
+  perspective: 2px;
+  //display: grid;
+  margin-top: 6rem;
+  scroll-behavior: smooth;
+
+}
+
+p {
+  color: white;
+}
+
+
+/*Desktop menu*/
+@include lg {
+  mcna-header {
+    height: 6rem;
+  }
+
+  main {
+    height: 90vh;
+
+  }
+
+}

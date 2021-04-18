@@ -1,0 +1,25 @@
+$tablet: 501px;
+$desktop: 992px;
+$extraLarge: 1300px;
+
+
+// tablet
+@mixin md {
+  @media all and (min-width: #{$tablet}) {
+    @content;
+  }
+}
+
+// desktop
+@mixin lg {
+  @media all and (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+// extraLarge
+@mixin xl {
+  @media all and (min-width: #{$extraLarge}) {
+    @content;
+  }
+}

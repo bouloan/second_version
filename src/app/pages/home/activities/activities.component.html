@@ -1,0 +1,8 @@
+  <div id="activities" class="paddingAnchor">
+    <h2>{{'activities.title' | translate}}</h2>
+    <div class="activitiesList">
+      <ng-container *ngFor="let activity of activities">
+        <mcna-activity [activity]="activity"></mcna-activity>
+      </ng-container>
+    </div>
+  </div>

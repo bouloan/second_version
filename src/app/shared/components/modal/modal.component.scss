@@ -1,0 +1,55 @@
+@import "responsive.scss";
+
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  overflow: auto;
+
+  .modalBody {
+    padding: 20px;
+    background: #fff;
+    margin: 20px;
+
+
+    mcna-close {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.modalBackground {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.75;
+  z-index: 900;
+}
+
+/*tablet*/
+@include md {
+  .modalContainer {
+    .modalBody {
+      max-width: 650px;
+      margin: 1rem auto;
+    }
+  }
+}
+
+/*desktop*/
+@include lg {
+  .modalContainer {
+    .modalBody {
+      margin: 1rem auto;
+      width: 60vw;
+      max-width: 1100px;
+    }
+  }
+}

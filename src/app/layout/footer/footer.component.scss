@@ -1,0 +1,39 @@
+@import "../../../styles.scss";
+@import "responsive.scss";
+
+.footerMenu {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ededed;
+
+  .logo {
+    display: none;
+  }
+
+  .adress {
+    padding-left: 1rem;
+  }
+
+  .socialNetwork {
+    img {
+      height: 1rem;
+    }
+  }
+}
+
+/*Tablet menu*/
+@include md {
+  .footerMenu {
+    flex-direction: row;
+    justify-content: space-around;
+
+    .socialNetwork {
+      img {
+        height: 2rem;
+      }
+    }
+  }
+}
