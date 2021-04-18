@@ -1,133 +1,142 @@
 {
-  "language": "语言",
-  "contact": "联系",
-  "more": "更多",
-  "back": "回去",
-  "menu": {
-    "home": "主页",
-    "presentation": "关于我们",
-    "services": "服务",
-    "videos": "视频",
-    "activities": "课程",
-    "legalNotice": "网站声明",
-    "news": "新闻"
-  },
-  "catchphrase": {
-    "title": "走进新阿基坦中法协会",
-    "content": "与你同行"
-  },
-  "presentation": {
-    "title": "关于我们",
-    "content": "<p>新阿基坦中法协会于2019 年4⽉创⽴ ，是符合《1901年协会法》的⾮盈利组织。</p><p>协会的宗旨是弘扬中法两国之间的文化，为波尔多华人提供法语服务，帮助华人尽快融入法国社会，同时也协助法国人更好地了解中国文化，为中法文化交流提供一个平台。</p><p>我们的服务如下：</p><ul><li>语言课与中国文化活动<ul><li>汉语课(包括学生补课，成人HSK考试辅助)</li><li>法语课(包括A1、A2水平课、驾照辅助课等)</li><li>中国民族和古典舞蹈班</li><li>中国文化兴趣活动和讲习班</li></ul></li><li>汉语和法语版网站设计与制作</li><li>中英法口译服务</li></ul>",
-    "contactUs": "联系我们"
-  },
-  "services": {
-    "title": "服务",
-    "content": [{
-        "subtitle": "舞蹈培训",
-        "description": "中国民族与古典舞蹈课",
-        "image": "../../../../assets/images/home/service_dance.jpg",
-        "backgroundColor": "#E4B9B6",
-        "color": "black"
-      },
-      {
-        "subtitle": "语言培训",
-        "description": "专业中法双语培训班",
-        "image": "../../../../assets/images/home/service_lesson.jpg",
-        "backgroundColor": "#e3d0a8"
-      },
-      {
-        "subtitle": "口译服务",
-        "description": "中英法三语口译",
-        "image": "../../../../assets/images/home/service_translation.jpg",
-        "backgroundColor": "#e3f2f3"
-      }
-    ]
-  },
-  "videos": {
-    "title": "视频",
-    "content": [{
-        "subtitle": "《让世界充满爱》",
-        "description": "面对全球新型冠状病毒的蔓延，MCNA协会呼吁波尔多华人团结一致，为当地医院酌情捐助。我们真诚感谢同胞们的爱心与支持！千里同好，坚于金石！"
-      },
-      {
-        "subtitle": "《今生难料》",
-        "description": "京剧是中国影响最大的戏曲剧种，有“国剧”之称，始于清代乾隆时期，现已纳入世界非物质文化遗产名录。MCNA协会的成员之一陈玲与您分享京剧国粹《今生难料》"
-      },
-      {
-        "subtitle": "a faire",
-        "description": "a faire"
-      },
-      {
-        "subtitle": "a faire",
-        "description": "a faire"
-      }
-    ]
-  },
-  "activities": {
-    "title": "课程",
-    "content": [{
-        "title": "交规法语课",
-        "subtitle": "专业法语语法讲解",
-        "image": "../../../../assets/images/home/activity_drive_license.jpg",
-        "content": "周二至周五 14:00 – 15:30",
-        "content2": "",
-        "content3": "",
-        "content4": "",
-        "content5": "",
-        "address": " Mérignac"
-      },
-      {
-        "title": "中文课",
-        "subtitle": "专业中文课程",
-        "image": "../../../../assets/images/home/activity_lesson.jpg",
-        "content": "儿童中文班",
-        "content2": "周六 14：00 — 15：00",
-        "content3": "中文班",
-        "content4": "周六 15：15-16：15",
-        "content5": "一对一私人定制课",
-        "address": " Mérignac"
-      },
-      {
-        "title": "舞蹈课",
-        "subtitle": "中国民族与古典舞蹈课",
-        "image": "../../../../assets/images/home/activity_dance.jpg",
-        "content": "周日 15:30 – 17:30",
-        "content2": "",
-        "content3": "",
-        "content4": "",
-        "content5": "",
-        "address": " Eysines"
-      }
-    ]
-  },
-  "news": {
-    "title": "新闻",
-    "newsContent": [{
-        "title": "法国华人积极捐款抗击疫情",
-        "content": "<p>法国新阿基坦中法协会在新冠肺炎疫情封城期间，积极开展捐款活动，并呼吁华人参与对当地一线人员的捐助。</p><p>千里同好，坚于金石！</p>",
-        "images": [{
-          "id": 1,
-          "url": "../../../../../../../assets/images/home/news/news2/1.jpg"
-        }],
-        "date": "2020年4月2日"
-      },
-      {
-        "title": "中国扬州市侨务办公室捐物支持防疫",
-        "content": "<p>2020年6月3日，法国新阿基坦中法协会收到了中国扬州市侨务办公室寄来的医用口罩和药品健康包，包裹里含有一封家书，温暖了我们所有人的心。</p><p>在与法国民众共同经历了抗击新冠病毒疫情的艰难时刻，感谢扬州侨务办公室的支持，协会已将这些口罩分发给需要的人。</p>",
-        "images": [{
-          "id": 1,
-          "url": "../../../../../../../assets/images/home/news/news1/1.jpg"
-        }, {
-          "id": 2,
-          "url": "../../../../../../../assets/images/home/news/news1/2.jpg"
-        }, {
-          "id": 3,
-          "url": "../../../../../../../assets/images/home/news/news1/3.jpg"
-        }],
-        "date": "2020年6月3日"
-      }
-
-    ]
-  }
+	"language": "语言",
+	"contact": "联系",
+	"more": "更多",
+	"back": "回去",
+	"menu": {
+		"home": "主页",
+		"presentation": "关于我们",
+		"services": "服务",
+		"videos": "视频",
+		"activities": "课程",
+		"legalNotice": "网站声明",
+		"news": "新闻"
+	},
+	"catchphrase": {
+		"title": "走进新阿基坦中法协会",
+		"content": "与你同行"
+	},
+	"presentation": {
+		"title": "关于我们",
+		"content": "<p>新阿基坦中法协会于2019 年4⽉创⽴ ，是符合《1901年协会法》的⾮盈利组织。</p><p>协会的宗旨是弘扬中法两国之间的文化，为波尔多华人提供法语服务，帮助华人尽快融入法国社会，同时也协助法国人更好地了解中国文化，为中法文化交流提供一个平台。</p><p>我们的服务如下：</p><ul><li>语言课与中国文化活动<ul><li>汉语课(包括学生补课，成人HSK考试辅助)</li><li>法语课(包括A1、A2水平课、驾照辅助课等)</li><li>中国民族和古典舞蹈班</li><li>中国文化兴趣活动和讲习班</li></ul></li><li>汉语和法语版网站设计与制作</li><li>中英法口译服务</li></ul>",
+		"contactUs": "联系我们"
+	},
+	"services": {
+		"title": "服务",
+		"content": [
+			{
+				"subtitle": "舞蹈培训",
+				"description": "中国民族与古典舞蹈课",
+				"image": "../../../../assets/images/home/service_dance.jpg",
+				"backgroundColor": "#E4B9B6",
+				"color": "black"
+			},
+			{
+				"subtitle": "语言培训",
+				"description": "专业中法双语培训班",
+				"image": "../../../../assets/images/home/service_lesson.jpg",
+				"backgroundColor": "#e3d0a8"
+			},
+			{
+				"subtitle": "口译服务",
+				"description": "中英法三语口译",
+				"image": "../../../../assets/images/home/service_translation.jpg",
+				"backgroundColor": "#e3f2f3"
+			}
+		]
+	},
+	"videos": {
+		"title": "视频",
+		"content": [
+			{
+				"subtitle": "《让世界充满爱》",
+				"description": "面对全球新型冠状病毒的蔓延，MCNA协会呼吁波尔多华人团结一致，为当地医院酌情捐助。我们真诚感谢同胞们的爱心与支持！千里同好，坚于金石！"
+			},
+			{
+				"subtitle": "《今生难料》",
+				"description": "京剧是中国影响最大的戏曲剧种，有“国剧”之称，始于清代乾隆时期，现已纳入世界非物质文化遗产名录。MCNA协会的成员之一陈玲与您分享京剧国粹《今生难料》"
+			},
+			{
+				"subtitle": "茉莉花",
+				"description": "虽无惊艳色彩，却可力盖全芳献给热爱生活的朋友"
+			},
+			{
+				"subtitle": "a faire",
+				"description": "a faire"
+			}
+		]
+	},
+	"activities": {
+		"title": "课程",
+		"content": [
+			{
+				"title": "交规法语课",
+				"subtitle": "专业法语语法讲解",
+				"image": "../../../../assets/images/home/activity_drive_license.jpg",
+				"content": "周二至周五 14:00 – 15:30",
+				"content2": "",
+				"content3": "",
+				"content4": "",
+				"content5": "",
+				"address": " Mérignac"
+			},
+			{
+				"title": "中文课",
+				"subtitle": "专业中文课程",
+				"image": "../../../../assets/images/home/activity_lesson.jpg",
+				"content": "儿童中文班",
+				"content2": "周六 14：00 — 15：00",
+				"content3": "中文班",
+				"content4": "周六 15：15-16：15",
+				"content5": "一对一私人定制课",
+				"address": " Mérignac"
+			},
+			{
+				"title": "舞蹈课",
+				"subtitle": "中国民族与古典舞蹈课",
+				"image": "../../../../assets/images/home/activity_dance.jpg",
+				"content": "周日 15:30 – 17:30",
+				"content2": "",
+				"content3": "",
+				"content4": "",
+				"content5": "",
+				"address": " Eysines"
+			}
+		]
+	},
+	"news": {
+		"title": "新闻",
+		"newsContent": [
+			{
+				"title": "法国华人积极捐款抗击疫情",
+				"content": "<p>法国新阿基坦中法协会在新冠肺炎疫情封城期间，积极开展捐款活动，并呼吁华人参与对当地一线人员的捐助。</p><p>千里同好，坚于金石！</p>",
+				"images": [
+					{
+						"id": 1,
+						"url": "../../../../../../../assets/images/home/news/news2/1.jpg"
+					}
+				],
+				"date": "2020年4月2日"
+			},
+			{
+				"title": "中国扬州市侨务办公室捐物支持防疫",
+				"content": "<p>2020年6月3日，法国新阿基坦中法协会收到了中国扬州市侨务办公室寄来的医用口罩和药品健康包，包裹里含有一封家书，温暖了我们所有人的心。</p><p>在与法国民众共同经历了抗击新冠病毒疫情的艰难时刻，感谢扬州侨务办公室的支持，协会已将这些口罩分发给需要的人。</p>",
+				"images": [
+					{
+						"id": 1,
+						"url": "../../../../../../../assets/images/home/news/news1/1.jpg"
+					},
+					{
+						"id": 2,
+						"url": "../../../../../../../assets/images/home/news/news1/2.jpg"
+					},
+					{
+						"id": 3,
+						"url": "../../../../../../../assets/images/home/news/news1/3.jpg"
+					}
+				],
+				"date": "2020年6月3日"
+			}
+		]
+	}
 }

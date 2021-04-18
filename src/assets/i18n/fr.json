@@ -1,137 +1,148 @@
 {
-  "language": "Langue",
-  "contact": "Contact",
-  "more": "Plus",
-  "back": "Retour",
-  "menu": {
-    "home": "Accueil",
-    "presentation": "Présentation",
-    "services": "Services",
-    "videos": "Vidéos",
-    "activities": "Activités",
-    "legalNotice": "Mentions Légales",
-    "news": "Actualités"
-  },
-  "catchphrase": {
-    "title": "Bienvenue sur MCNA",
-    "content": "Pour découvrir la culture et la langue chinoise"
-  },
-  "presentation": {
-    "title": "A propos de MCNA",
-    "content": "<p>Créée en avril 2019, Maison Chine Nouvelle-Aquitaine (MCNA) est une association à but non lucratif qui se conforme à la Loi d'Associations de 1901.</p><p>MCNA se donne pour objectifs de promouvoir l'amitié entre la Chine et la France, de fournir ses services d’interprétariat aux chinois résidant dans la région Nouvelle-Aquitaine, et d’apprendre le français aux sinophones et le chinois aux francophones. L'association doit non seulement permettre d'aider les chinois à s'intégrer à la société française, mais aussi d'aider les français à mieux comprendre la culture chinoise à travers nos activités culturelles afin d’établir une plateforme pour les échanges culturels entre la Chine et la France.</p><p>Nos services sont les suivants :</p><ul><li>Cours de langues et activités liées<ul><li>Cours de chinois (y compris la mise en niveaux scolaires, l'aide à l'examen HSK pour les adultes)</li><li>Cours de français (y compris niveau A1 et A2, assistance pour l’obtention du permis de conduire, etc.)</li><li>Cours de danses folkloriques et classiques chinoises</li><li>Atelier d’activités culturelles chinoises</li></ul></li><li>Services d'interprétation en chinois, anglais et français</li><li>Conception de sites internets bilingues (chinois et français)</li></ul>",
-    "contactUs": "Nous contacter"
-  },
-  "services": {
-    "title": "Services",
-    "content": [{
-        "subtitle": "Cours de danse",
-        "description": "Danse chinoise traditionelle",
-        "image": "../../../../assets/images/home/service_dance.jpg",
-        "backgroundColor": "#E4B9B6",
-        "color": "black"
-      },
-      {
-        "subtitle": "Cours linguistiques",
-        "description": "Cours de chinois et de français ",
-        "image": "../../../../assets/images/home/service_lesson.jpg",
-        "backgroundColor": "#e3d0a8"
-      },
-      {
-        "subtitle": "Services d'interprétariat",
-        "description": "Interprétariat chinois-anglais-français",
-        "image": "../../../../assets/images/home/service_translation.jpg",
-        "backgroundColor": "#e3f2f3"
-      }
-    ]
-  },
-  "videos": {
-    "title": "Vidéos",
-    "content": [{
-        "subtitle": "Unis nous vaincrons",
-        "description": "Faisant face à l'épidémie mondiale du coronavirus, l'association MCNA a appelé à la solidarité des chinois de Bordeaux pour soutenir les hôpitaux locaux pour y faire des dons. Nous remercions nos compatriotes pour leurs bonnes actions! Unis nous vaincrons! "
-      },
-      {
-        "subtitle": "Imprévisible dans la vie",
-        "description": "Cet opéra de Pékin est l'un des drames le plus influent en Chine. Désigné comme \"Trésor national\" et connu depuis la dynastie Qing, il est rentré dans la liste mondiale du patrimoine culturel immatériel. Chen Ling, une des membres de l'Association MCNA, partage ce trésor national avec vous."
-      },
-      {
-        "subtitle": "a faire",
-        "description": "a faire"
-      },
-      {
-        "subtitle": "a faire",
-        "description": "a faire"
-      }
-    ]
-  },
-  "activities": {
-    "title": "Activités",
-    "content": [{
-        "title": "Cours de français thématique",
-        "subtitle": "Code de la route",
-        "image": "../../../../assets/images/home/activity_drive_license.jpg",
-        "content": "Du mardi au vendredi 14:00-15:30",
-        "content2": "",
-        "content3": "",
-        "content4": "",
-        "content5": "",
-        "address": "Mérignac"
-      },
-      {
-        "title": "Cours de chinois",
-        "subtitle": "Cours Collectif ",
-        "image": "../../../../assets/images/home/activity_lesson.jpg",
-        "content": "Cours de Chinois aux enfants ",
-        "content2": "samedi 14:00-15:00",
-        "content3": "Cours de Chinois aux adultes",
-        "content4": "samedi 15:15-16:15",
-        "content5": "Cours particulier sur mesure",
-        "address": "Mérignac"
-      },
-      {
-        "title": "Cours de danse",
-        "subtitle": "Danse chinoise traditionelle",
-        "image": "../../../../assets/images/home/activity_dance.jpg",
-        "content": "Dimanche 15:30-17:30",
-        "content2": "",
-        "content3": "",
-        "content4": "",
-        "content5": "",
-        "address": "Eysines"
-      }
-    ]
-  },
-  "news": {
-    "title": "Actualités",
-    "newsContent": [{
-        "title": "Les Chinois en France prennent des mesures contre la COVID.",
-        "resume": "Phasellus elementum lectus placerat elementum tempor. Nam suscipit at augue quis varius. Morbi hendrerit a urna a fermentum. Aliquam vulputate odio felis, ",
-        "content": "<p>Lors du confinement, MCNA a fait appel aux chinois de la région de Bordeaux, via le réseau Wechat, pour participer activement à la collecte de dons (argent, masques etc.) pour le personnel médical en première ligne. </p>",
-        "images": [{
-          "id": 1,
-          "url": "../../../../../../../assets/images/home/news/news2/1.jpg"
-        }, {
-          "id": 2,
-          "url": "image2"
-        }],
-        "date": "02-04-2020"
-      }, {
-        "title": "Le bureau des affaires chinoises d'outre-mer de Yangzhou soutient la lutte contre la COVID",
-        "resume": "Depuis juin 2020, MCNA a reçu un gros colis de masques medicaux envoyés par le Bureau des affaires chinoises d'outre-mer à Yangzhou, Chine.",
-        "content": "<p>En juin 2020, MCNA a reçu un gros colis de masques médicaux envoyés par le Bureau des affaires chinoises d'outre-mer à Yangzhou, Chine.</p><p>Le colis contenait une lettre très chaleureuse qui nous a fait du bien au cœur.</p><p>Les masques ont été distribués à ceux qui en avaient besoin. </p>",
-        "images": [{
-          "id": 1,
-          "url": "../../../../../../../assets/images/home/news/news1/1.jpg"
-        }, {
-          "id": 2,
-          "url": "../../../../../../../assets/images/home/news/news1/2.jpg"
-        }, {
-          "id": 3,
-          "url": "../../../../../../../assets/images/home/news/news1/3.jpg"
-        }],
-        "date": "03-06-2020"
-      }
-
-    ]
-  }
+	"language": "Langue",
+	"contact": "Contact",
+	"more": "Plus",
+	"back": "Retour",
+	"menu": {
+		"home": "Accueil",
+		"presentation": "Présentation",
+		"services": "Services",
+		"videos": "Vidéos",
+		"activities": "Activités",
+		"legalNotice": "Mentions Légales",
+		"news": "Actualités"
+	},
+	"catchphrase": {
+		"title": "Bienvenue sur MCNA",
+		"content": "Pour découvrir la culture et la langue chinoise"
+	},
+	"presentation": {
+		"title": "A propos de MCNA",
+		"content": "<p>Créée en avril 2019, Maison Chine Nouvelle-Aquitaine (MCNA) est une association à but non lucratif qui se conforme à la Loi d'Associations de 1901.</p><p>MCNA se donne pour objectifs de promouvoir l'amitié entre la Chine et la France, de fournir ses services d’interprétariat aux chinois résidant dans la région Nouvelle-Aquitaine, et d’apprendre le français aux sinophones et le chinois aux francophones. L'association doit non seulement permettre d'aider les chinois à s'intégrer à la société française, mais aussi d'aider les français à mieux comprendre la culture chinoise à travers nos activités culturelles afin d’établir une plateforme pour les échanges culturels entre la Chine et la France.</p><p>Nos services sont les suivants :</p><ul><li>Cours de langues et activités liées<ul><li>Cours de chinois (y compris la mise en niveaux scolaires, l'aide à l'examen HSK pour les adultes)</li><li>Cours de français (y compris niveau A1 et A2, assistance pour l’obtention du permis de conduire, etc.)</li><li>Cours de danses folkloriques et classiques chinoises</li><li>Atelier d’activités culturelles chinoises</li></ul></li><li>Services d'interprétation en chinois, anglais et français</li><li>Conception de sites internets bilingues (chinois et français)</li></ul>",
+		"contactUs": "Nous contacter"
+	},
+	"services": {
+		"title": "Services",
+		"content": [
+			{
+				"subtitle": "Cours de danse",
+				"description": "Danse chinoise traditionelle",
+				"image": "../../../../assets/images/home/service_dance.jpg",
+				"backgroundColor": "#E4B9B6",
+				"color": "black"
+			},
+			{
+				"subtitle": "Cours linguistiques",
+				"description": "Cours de chinois et de français ",
+				"image": "../../../../assets/images/home/service_lesson.jpg",
+				"backgroundColor": "#e3d0a8"
+			},
+			{
+				"subtitle": "Services d'interprétariat",
+				"description": "Interprétariat chinois-anglais-français",
+				"image": "../../../../assets/images/home/service_translation.jpg",
+				"backgroundColor": "#e3f2f3"
+			}
+		]
+	},
+	"videos": {
+		"title": "Vidéos",
+		"content": [
+			{
+				"subtitle": "Unis nous vaincrons",
+				"description": "Faisant face à l'épidémie mondiale du coronavirus, l'association MCNA a appelé à la solidarité des chinois de Bordeaux pour soutenir les hôpitaux locaux pour y faire des dons. Nous remercions nos compatriotes pour leurs bonnes actions! Unis nous vaincrons! "
+			},
+			{
+				"subtitle": "Imprévisible dans la vie",
+				"description": "Cet opéra de Pékin est l'un des drames le plus influent en Chine. Désigné comme \"Trésor national\" et connu depuis la dynastie Qing, il est rentré dans la liste mondiale du patrimoine culturel immatériel. Chen Ling, une des membres de l'Association MCNA, partage ce trésor national avec vous."
+			},
+			{
+				"subtitle": "Jasmin",
+				"description": "A ceux qui aiment la vie Romance, grâce et force!"
+			},
+			{
+				"subtitle": "a faire",
+				"description": "a faire"
+			}
+		]
+	},
+	"activities": {
+		"title": "Activités",
+		"content": [
+			{
+				"title": "Cours de français thématique",
+				"subtitle": "Code de la route",
+				"image": "../../../../assets/images/home/activity_drive_license.jpg",
+				"content": "Du mardi au vendredi 14:00-15:30",
+				"content2": "",
+				"content3": "",
+				"content4": "",
+				"content5": "",
+				"address": "Mérignac"
+			},
+			{
+				"title": "Cours de chinois",
+				"subtitle": "Cours Collectif ",
+				"image": "../../../../assets/images/home/activity_lesson.jpg",
+				"content": "Cours de Chinois aux enfants ",
+				"content2": "samedi 14:00-15:00",
+				"content3": "Cours de Chinois aux adultes",
+				"content4": "samedi 15:15-16:15",
+				"content5": "Cours particulier sur mesure",
+				"address": "Mérignac"
+			},
+			{
+				"title": "Cours de danse",
+				"subtitle": "Danse chinoise traditionelle",
+				"image": "../../../../assets/images/home/activity_dance.jpg",
+				"content": "Dimanche 15:30-17:30",
+				"content2": "",
+				"content3": "",
+				"content4": "",
+				"content5": "",
+				"address": "Eysines"
+			}
+		]
+	},
+	"news": {
+		"title": "Actualités",
+		"newsContent": [
+			{
+				"title": "Les Chinois en France prennent des mesures contre la COVID.",
+				"resume": "Phasellus elementum lectus placerat elementum tempor. Nam suscipit at augue quis varius. Morbi hendrerit a urna a fermentum. Aliquam vulputate odio felis, ",
+				"content": "<p>Lors du confinement, MCNA a fait appel aux chinois de la région de Bordeaux, via le réseau Wechat, pour participer activement à la collecte de dons (argent, masques etc.) pour le personnel médical en première ligne. </p>",
+				"images": [
+					{
+						"id": 1,
+						"url": "../../../../../../../assets/images/home/news/news2/1.jpg"
+					},
+					{
+						"id": 2,
+						"url": "image2"
+					}
+				],
+				"date": "02-04-2020"
+			},
+			{
+				"title": "Le bureau des affaires chinoises d'outre-mer de Yangzhou soutient la lutte contre la COVID",
+				"resume": "Depuis juin 2020, MCNA a reçu un gros colis de masques medicaux envoyés par le Bureau des affaires chinoises d'outre-mer à Yangzhou, Chine.",
+				"content": "<p>En juin 2020, MCNA a reçu un gros colis de masques médicaux envoyés par le Bureau des affaires chinoises d'outre-mer à Yangzhou, Chine.</p><p>Le colis contenait une lettre très chaleureuse qui nous a fait du bien au cœur.</p><p>Les masques ont été distribués à ceux qui en avaient besoin. </p>",
+				"images": [
+					{
+						"id": 1,
+						"url": "../../../../../../../assets/images/home/news/news1/1.jpg"
+					},
+					{
+						"id": 2,
+						"url": "../../../../../../../assets/images/home/news/news1/2.jpg"
+					},
+					{
+						"id": 3,
+						"url": "../../../../../../../assets/images/home/news/news1/3.jpg"
+					}
+				],
+				"date": "03-06-2020"
+			}
+		]
+	}
 }
