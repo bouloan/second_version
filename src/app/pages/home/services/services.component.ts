@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import { TranslateService } from "@ngx-translate/core";
 import { Subject } from "rxjs";
 import { takeUntil } from "rxjs/operators";
@@ -9,7 +9,7 @@ import { Service } from "src/app/shared/models/service.model";
   templateUrl: "./services.component.html",
   styleUrls: ["./services.component.scss"],
 })
-export class ServicesComponent implements OnInit {
+export class ServicesComponent implements OnInit, OnDestroy {
   public services: Service[];
 
   private _unsubscribe$: Subject<void>;

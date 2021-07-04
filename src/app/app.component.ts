@@ -15,7 +15,7 @@ import { ModalService } from "./shared/services/modal.service";
 import { ResponsiveService } from "./shared/services/responsive.service";
 
 @Component({
-  selector: "app-root",
+  selector: "mcna-app",
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.scss"],
 })

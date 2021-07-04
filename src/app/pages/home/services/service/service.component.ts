@@ -6,10 +6,6 @@ import { Service } from 'src/app/shared/models/service.model';
 	templateUrl: './service.component.html',
 	styleUrls: [ './service.component.scss' ]
 })
-export class ServiceComponent implements OnInit {
+export class ServiceComponent {
 	@Input() service: Service;
-
-	constructor() {}
-
-	ngOnInit() {}
 }

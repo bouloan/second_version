@@ -3,8 +3,8 @@ import {
   Input,
   OnInit,
   HostListener,
-  ViewChild,
-} from "@angular/core";
+  ViewChild, OnDestroy,
+} from '@angular/core';
 import { VideoService } from "../video.service";
 import { YouTubePlayer } from "@angular/youtube-player";
 import { ResponsiveService } from "src/app/shared/services/responsive.service";
@@ -15,7 +15,7 @@ import { ResponsiveService } from "src/app/shared/services/responsive.service";
   styleUrls: ["./video.component.scss"],
 })
 export class VideoComponent implements OnInit {
-  @Input("videoId") id: string;
+  @Input() videoId: string;
   videoWidth: number;
   videoHeight: number;
 

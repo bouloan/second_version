@@ -7,7 +7,7 @@ import { Activity } from "src/app/shared/models/activity.model";
   templateUrl: "./activity.component.html",
   styleUrls: ["./activity.component.scss"],
 })
-export class ActivityComponent implements OnInit {
+export class ActivityComponent {
   public faAngleUp = faAngleUp;
 
   public faAngleDown = faAngleDown;
@@ -18,5 +18,4 @@ export class ActivityComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {}
 }

@@ -1,12 +1,12 @@
 import {
   AfterViewInit,
   Component,
-  EventEmitter,
+  EventEmitter, OnInit,
   Output,
   Type,
   ViewChild,
   ViewContainerRef,
-} from "@angular/core";
+} from '@angular/core';
 import { DynamicComponentService } from "../../services/dynamic-component.service";
 import { ModalService } from "../../services/modal.service";
 
@@ -15,7 +15,8 @@ import { ModalService } from "../../services/modal.service";
   templateUrl: "./modal.component.html",
   styleUrls: ["./modal.component.scss"],
 })
-export class ModalComponent implements AfterViewInit {
+export class ModalComponent implements OnInit, AfterViewInit {
+
   @Output() close = new EventEmitter<void>();
 
   @ViewChild("modalContentHost", { read: ViewContainerRef })

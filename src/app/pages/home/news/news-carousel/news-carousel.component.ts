@@ -7,7 +7,7 @@ import { News } from "../news.model";
   templateUrl: "./news-carousel.component.html",
   styleUrls: ["./news-carousel.component.scss"],
 })
-export class NewsCarouselComponent implements OnInit {
+export class NewsCarouselComponent {
   @Input() content: News;
 
   public faAngleLeft = faAngleLeft;
@@ -15,10 +15,6 @@ export class NewsCarouselComponent implements OnInit {
   public faAngleRight = faAngleRight;
 
   public selectedSlide = 1;
-
-  constructor() {}
-
-  ngOnInit(): void {}
 
   onNext() {
     if (this.selectedSlide < this.content.images.length) {

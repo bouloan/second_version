@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gotu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap");
+@import "color.scss";
+
+* {
+  box-sizing: border-box;
+  line-height: 1.5rem;
+}
+
+html {
+  overflow-y: hidden;
+
+  body {
+    color: $font-color;
+    &.zh-CN-language {
+      font-family: "Ma Shan Zheng", cursive;
+      font-size: 1.2rem;
+      h1,
+      h2,
+      h3,
+      .menu > li {
+        font-family: "ZCOOL XiaoWei", serif;
+      }
+    }
+    &.fr-language {
+      font-family: "Open Sans", sans-serif;
+      font-size: 1rem;
+      h1,
+      h2,
+      h3,
+      .menu > li {
+        font-family: "Gotu", serif;
+      }
+    }
+
+    margin: unset;
+  }
+}

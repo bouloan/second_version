@@ -14,16 +14,12 @@ import {
   templateUrl: "./sharped-button.component.html",
   styleUrls: ["./sharped-button.component.scss"],
 })
-export class SharpedButtonComponent implements OnInit {
+export class SharpedButtonComponent {
   @Input() backgroundColor;
   @Input() color;
   @Output() buttonClick = new EventEmitter();
 
   @ViewChild("button") buttonEl: ElementRef;
-
-  constructor() {}
-
-  ngOnInit(): void {}
 
   onClick() {
     this.buttonClick.emit();

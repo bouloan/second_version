@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { TranslateService } from "@ngx-translate/core";
 import { Subject } from "rxjs";
@@ -10,7 +10,7 @@ import { VideoService } from "./video.service";
   templateUrl: "./videos.component.html",
   styleUrls: ["./videos.component.scss"],
 })
-export class VideosComponent implements OnInit {
+export class VideosComponent implements OnInit, OnDestroy {
   private _unsubscribe$: Subject<void>;
 
   public faAngleLeft = faAngleLeft;
@@ -47,19 +47,37 @@ export class VideosComponent implements OnInit {
             id: 1,
             title: t[0].subtitle,
             content: t[0].description,
-            video: "zfzUNzFpMCI",
+            video: "uqn793_LtmY",
           },
           {
             id: 2,
             title: t[1].subtitle,
             content: t[1].description,
-            video: "8nXncc_Yg0g",
+            video: "C0Yc-13P6O4",
           },
           {
             id: 3,
             title: t[2].subtitle,
             content: t[2].description,
-            video: "C0Yc-13P6O4",
+            video: "MCTohyeDRow",
+          },
+          {
+            id: 4,
+            title: t[3].subtitle,
+            content: t[3].description,
+            video: "gpbwqwLVxrs",
+          },
+          {
+            id: 5,
+            title: t[4].subtitle,
+            content: t[4].description,
+            video: "zfzUNzFpMCI",
+          },
+          {
+            id: 6,
+            title: t[5].subtitle,
+            content: t[5].description,
+            video: "8nXncc_Yg0g",
           },
         ];
       });

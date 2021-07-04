@@ -5,11 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './close.component.html',
   styleUrls: ['./close.component.scss']
 })
-export class CloseComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class CloseComponent  {
 
 }
